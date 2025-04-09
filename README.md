@@ -1,6 +1,6 @@
 # YouTube Video Downloader
 
-A simple and efficient Python script to download YouTube videos using the yt-dlp library.
+A simple Python script to download YouTube videos using yt-dlp.
 
 ## Features
 
@@ -19,23 +19,20 @@ Before running this script, make sure you have:
 
 ## Installation
 
-1. Clone this repository or download the source code.
-
-2. Install the required dependencies:
-```bash
-pip install yt-dlp
-```
+1. Clone this repository
+2. Install requirements:
+   ```
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
-1. Run the script:
-```bash
+Run the script:
+```
 python main.py
 ```
 
-2. When prompted, enter the YouTube video URL you want to download.
-
-3. The video will be downloaded to the `downloads` folder in the project directory.
+Enter the YouTube video URL when prompted. The video will be downloaded to the `downloads` folder.
 
 ## Project Structure
 

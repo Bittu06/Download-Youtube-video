@@ -1,10 +1,5 @@
-downloads/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
+downloads/
+.env
 venv/
-.env/
-.venv/
